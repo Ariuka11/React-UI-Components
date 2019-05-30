@@ -1,25 +1,36 @@
-/* All styles for your Card Components live here */
-.banner-img {
-    width: 500px;
-  }
+.card-container{
+    display: flex;
+  flex-direction: column;
+}
+.banner-logo{
+ 
+  width: 80%;
+  margin: 30px auto 0 auto;
+  border-radius: 4px;
+  background: hsl(0, 0%, 100%);
+  background-size: contain;
+}
+.banner-img{
+    border-radius: 4px 4px 0 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+.card-content{
   
-  .banner-container {
-    margin-left: 55px;
-  }
-  
-  .card-content {
-    width: 500px;
-    margin-left: 55px;
-  }
-  
-  h2 {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 1.3rem;
-  }
-  
-  .card-content > p {
-    font-size: .9rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  } 
+  background: #ffffff;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: -2px;
+  border-bottom: 1px solid #e3e3e3;
+  border-left: 1px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
+  border-radius: 0 0 4px 4px;
+}
+.card-content p {
+    margin: 0;
+  padding: 0.3em;
+}
+.card-content a{
+    text-decoration: none;
+  color: #d1d2d3;
+}

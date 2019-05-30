@@ -1,34 +1,27 @@
 /* All styles for your header Components live here */
-.header-title {
-    display: flex;
-  }
-  
-  .header-container {
-    display: flex;
-  }
-  
-  .header-content {
-    margin-right: 20px;
-  }
-  
-  .header-p {
-    font-size: .9rem;
-    margin-top: 0;
-    width: 500px;
-  }
-  
-  .fineprint {
-    color: gray;
-    font-size: .7rem;
-  }
-  
-  h1 {
-    font-size: .9rem;
-    margin-right: 10px;
-  }
-  
-  .image-thumbnail {
-    width: 50px;
-    margin-top: 5px;
-    margin-right: 10px;
-  } 
+.header-container{
+  display:flex;
+}
+.image-wrapper{
+  height: 50px;
+  padding: 0.3rem;
+}
+.image-thumbnail{
+  height: 100%;
+}
+.header-date{
+  font-weight: 300;
+  padding: 5px;
+  color: red;
+}
+.header-title{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.6em;
+}
+.header-p{
+  font-size: 13px;
+  font-weight: 400;
+  width: 93%;
+  line-height: 1.3;
+}

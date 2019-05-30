@@ -8,11 +8,11 @@ const CardContent = () => {
         <p>React makes it painless to create interactive UIs.
            Design simple views for each state in your application.</p>
         <a 
-        href= "http://reactjs.org">
+          href= "http://reactjs.org">
           reactjs.org
         </a>
       </div>
     )
   }
   
-  export default CardContent 
+  export default CardContent;
