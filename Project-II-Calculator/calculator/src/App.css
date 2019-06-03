@@ -1,0 +1,16 @@
+.container{
+    width: 500px;
+}
+.buttons{
+    display: flex;
+   
+}
+.buttonsLeft{
+    position: relative;
+    width: 75%;
+}
+.buttonsRight{
+    position: relative;
+    margin-bottom: -190px;
+    top: -96px;
+}

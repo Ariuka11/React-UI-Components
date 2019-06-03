@@ -1,1 +1,27 @@
 /* All styles for your header Components live here */
+.header-container{
+  display:flex;
+}
+.image-wrapper{
+  height: 50px;
+  padding: 0.3rem;
+}
+.image-thumbnail{
+  height: 100%;
+}
+.header-date{
+  font-weight: 300;
+  padding: 5px;
+  color: red;
+}
+.header-title{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.6em;
+}
+.header-p{
+  font-size: 13px;
+  font-weight: 400;
+  width: 93%;
+  line-height: 1.3;
+}
